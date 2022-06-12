@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.menuArreglado{
+    z-index: 4;
+    width: 100%; 
+    position: fixed;
+    
+   
+     
+}
+
+.nav {
+    
+    background-color: black;
+    height: 76px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+
+    margin-right: 20px ;
+    color: rgb(106, 236, 171);
+    text-shadow: 1px 1px 5px #ccc;
+    font-size: 20px;
+}
+.nav a:hover{
+    text-shadow: #ccc 1px 1px 5px;
+    transform: scale(1.2, 1.2);
+}
+
+
+
+
+.titulo{
+    padding-top: 65px;
+    background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    
+}
+.titulo h1{
+    padding: 20px 20px 20px 230px;
+    font-size: 80px;
+    color:white;
+
+}
+.espacio{
+    width: 100%;
+    height: 100px;
+}
+.caja1{
+
+    width: 100%;
+    height: 600px;
+    
+    position: relative;
+
+}
+.sub1{
+    clip-path: polygon(0 0, 100% 0%, 74% 100%, 0% 100%);
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: 3;
+    width: 65%;
+    height: 500px;
+    display: block;
+    display: inline-block;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+
+.sub2{
+    width:55%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.623);
+    z-index: 2;
+    display: block;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.sub1 img{
+    width: 700px;
+    border-radius: 6px;
+    display: block;
+    position: absolute;
+    top:10%;
+    left:10%;
+}
+.texto{
+    width: 45%;
+    height: 40%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+
+
+}
+.texto h1,p1{
+    
+    color:white;
+    padding: 15px;
+}
+.texto h1{
+    border-bottom: solid 1px#eee ;
+    line-height: 60px;
+}
+.texto p1{
+    line-height: 45px;
+}
+/*de forma manual nose porque no se aplica bien*/
+
+.end{
+    
+    background-color: #282828;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+.creditos{
+    
+    text-decoration: none;
+    list-style: none;
+    
+    display:bock;
+    width: 40%;
+    height: 80%;
+    padding: 30px 50px 10px 50px ;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+.creditos h1{
+    /*sacado del internet sobre letras neon con shadow*/
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 35px #0fa,
+    0 0 40px #0fa,
+    0 0 54px #0fa; 
+    text-align: center;
+    padding: 30px;
+}  
+
+.creditos ul li, a {
+    
+    list-style: none;
+    font-size: 30px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+          0 0 7px #fff,
+          0 0 10px #fff,
+          0 0 15px #fff,
+          0 0 20px #0fa,
+          0 0 35px #0fa,
+          0 0 40px #0fa,
+          0 0 54px #0fa; 
+    
+}
+.logo{
+    display: block;
+    display: inline-block;
+}
+.logo img{
+    padding: 0 20px 0 20px;
+    width: 30px;
+}
+
+/*CREDITOS 2 LA OTRA CAJA .-.*/
+.creditos2{
+    display: block;
+    width: 40%;
+    position: absolute;
+    left:50%;
+    top:40%;
+    padding: auto;
+    
+}
+.creditos2{
+   
+    text-align: center;
+    font-size: 40px;
+}
